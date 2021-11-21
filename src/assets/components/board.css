@@ -1,0 +1,23 @@
+#board {
+    background-color: #b58863;
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(8, 1fr);
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+}
+
+.dark {
+    background-color: #b58863;
+}
+
+.light {
+    background-color: #f0d9b5;
+}
